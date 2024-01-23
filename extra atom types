@@ -1,4 +1,0 @@
-; Extra atom types to add to atomtypes.atp in the ff of choice.
-; AFAIK they aren't included in GROMACS standard distributions.
- amin_905   12.0110   ; for cationic derivatives. Carbon in (CH3)4N+ according to JPC 90(10):2174-2182. 1986. (OPLS)
- amin_908   12.0110   ; for cationic derivatives. Carbon in R-CH2-N(CH3)3+ acording to JPC 90(10):2174-2182. 1986. (OPLS)

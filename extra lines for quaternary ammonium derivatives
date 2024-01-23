@@ -1,0 +1,8 @@
+; Extra atom types to add to atomtypes.atp.
+; AFAIK they aren't included in GROMACS standard distributions.
+ amin_905   12.0110   ; for cationic derivatives. Carbon in (CH3)4N+ according to JPC 90(10):2174-2182. 1986. (OPLS)
+ amin_908   12.0110   ; for cationic derivatives. Carbon in R-CH2-N(CH3)3+ acording to JPC 90(10):2174-2182. 1986. (OPLS)
+; Now, extra lines for ffnonbonded.itp, carbon atoms bonded to N+:
+; name      bond_type     mass     charge     ptype      sigma      epsilon
+ amin_905   CT     6    12.01100     0.070       A    3.50000e-01  2.76144e-01  ; Carbon in (CH3)4N+ according to JPC 90(10):2174-2182. 1986. (OPLS)
+ amin_908   CT     6    12.01100     0.130       A    3.50000e-01  2.76144e-01  ; Carbon in R-CH2-N(CH3)3+ acording to JPC 90(10):2174-2182. 1986. (OPLS)
